@@ -1,0 +1,38 @@
+.project-content{
+    background: #fafafa;
+    margin: 2px;
+    flex: 1 1 125%;
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.project-header{
+    display: flex;
+    justify-content: center;
+}
+
+.project-row{
+    display: inline-flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.divider{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.project-image{
+    width: 300px;
+    height: 300px;
+}
+
+.project-card{
+    margin: 10px;
+    justify-content: center;
+    max-width: 300px;
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+.phil-content{
+    background: #fafafa;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phil-header{
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.article-item{
+    margin: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.article-card{
+    max-width: 700px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+

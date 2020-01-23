@@ -1,0 +1,43 @@
+<div class="project-content">
+  <div class="project-header">
+    <h2>Projects</h2><br/>
+  </div>
+  <div *ngIf="isVisible" class="project-row" [@slideInOutRight]>
+    <mat-card class="project-card">
+      <img class="project-image" src= "assets/Banda-Logo.jpeg">
+      <a href="https://github.com/edwardbottom/BandaApp">
+        <h4>Banda Android App</h4>
+      </a>
+      <p> An app to help artists and venues network and grow their brand.</p>
+      <p> Kotlin, Firebase, Android Studio </p>
+    </mat-card>
+    <mat-card class="project-card"> 
+      <img class="project-image" src= "assets/MapsLogo.jpeg">
+      <a href="https://github.com/edwardbottom/SafeTrek_APP">
+        <h4>Find My Child App</h4>
+      </a>
+      <p> An app with an interactive map to help parents keep track of their child's location.</p>
+      <p> Javascript, NodeJS, MongoDB, PhoneGap </p>
+    </mat-card>
+  </div>
+  <div *ngIf="isVisible" class="project-row" [@slideInOutLeft]>
+    <mat-card class="project-card">
+      <img class="project-image" src= "assets/Whiskey_Logo.png">
+      <h4>
+        <a href="https://github.com/edwardbottom/Whiskey_in_the_Flask">
+          Whiskey in the Flask
+        </a>
+      </h4>
+      <p> A website, forum, and catalog over 250 different whiskeys.</p>
+      <p> Flask, JavaScript, MongoDB, D3JS </p>
+    </mat-card>
+    <mat-card class="project-card">
+      <img class="project-image" src= "assets/Flex_Logo.png">
+      <h4>
+        <a href="https://github.com/edwardbottom/FLEx"> FLex (Formulated Logistical Exercise) </a>
+      </h4>
+      <p> A software to help make physical therapy easy for therapists and patients.</p>
+      <p> VueJS, ExpressJS, NodeJS, MongoDB </p>
+    </mat-card>
+  </div>
+</div>

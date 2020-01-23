@@ -1,0 +1,73 @@
+  .terminal-body{
+    background: #fafafa;
+    margin: 15;
+    flex: 1 1 110%;
+    /* height: 80%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* @keyframes revealTerminal{
+    from{
+      opacity: 0;
+      margin-right: -100%;
+    }
+    to{
+      opacity: 1;
+      margin-right: 0px;
+    }
+  } */
+
+  .terminal-card{
+    border-top: 15px solid #ccc;
+    background-color: #383737;
+    color: #ccc;
+    padding: 3%;
+    font-size: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-family: 'Monaco', 'Courier New';
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    /* animation: 'revealTerminal';
+    animation-duration: 600ms;
+    animation-timing-function: ease-out; */
+  }
+
+  .terminal-content {
+    flex: 1 1 auto;
+    color: white;
+    font: arial;
+    font-size: 90%;
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 27%;
+    margin-right: 27%;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .terminal-content{
+      margin: auto;
+      margin-top: 2%;
+      display: flex;
+      flex-direction: column;
+      width: match-parent;
+      word-break:break-all;
+      word-wrap: break-word
+    }
+  }
+
+  .terminal-response{
+    margin-left:5%;
+  }
+
+  .sub-header-terminal{
+    text-align: center;
+    margin: 1%;
+  }
+
+
+  
+  

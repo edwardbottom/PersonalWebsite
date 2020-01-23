@@ -1,0 +1,144 @@
+<div class="resume-content">
+  <div class="resume-header">
+    <h2>Resume</h2>
+  </div>
+    <br>
+    <div class="resume-container"> 
+      <h4 class="resume-sub-header" id="education-header">Education</h4>
+      <div *ngIf="isEducationVisible" class="resume-chunk" [@slideInOutRight]>
+          <div class="resume-item">
+          <div> Washington Univerisity in St. Louis</div>
+          <div>2016 - 2020</div>
+        </div>
+        <div class="resume-item">
+          <div>BS in Computer Science</div>
+          <div>Dean's List</div>
+        </div>
+        <div class="resume-item">
+          Second Major in Philisophy, Neuroscience and Psychology
+        </div>
+        <div class="resume-list-header"> Relevant Coursework:</div>
+        <div class="resume-list">
+          <ul>
+            <li> Data Structures and Algorithms</li>
+            <li> Analysis of Algorithms </li>
+            <li> Rapid Prototyping and Creative Programming</li>
+            <li> Networks and Transports</li>
+            <li> Introduction to AI</li>
+            <li> Computer Security</li>
+            <li> Database Management</li>
+            <li> Mobile App Development </li>
+            <li> Parallel and Concurrent Programming </li>
+            <li> Object Oriented Design with C++</li>
+            <li> Internet of Things</li>
+            <li> Software Engineering Workshop</li>
+            <li> Logic and Discrete Mathematics</li>
+            <li> Matrix Algebra</li>
+            <li> Probability and Statistics</li>
+            <li> Interdisciplinary Cognitive Science</li>
+            <li> Computational Linguistics</li>
+          </ul>
+        </div>
+      </div>
+      
+
+      <h4 class="resume-sub-header" id="experience-header">Experience</h4>
+      <div *ngIf="isExperienceVisible"> 
+        <div class="resume-item" [@slideInOutLeft]>
+        <div> Citi</div>
+        <div>Summer 2019</div>
+      </div>
+      <div class="resume-item" [@slideInOutLeft]>
+        <div>Sofware Engineering Intern</div>
+        <div>Dallas, TX</div>
+      </div>
+      <div class="resume-list" [@slideInOutLeft]>
+        <ul>
+          <li> Used Angular and SCSS to create a conversational user interface for credit card applications used by over 30 different companies</li>
+          <li> Created accordion based, screen responsive credit card applications with Flexbox and SCSS style kits that saw a 30% increase in completed mobile applications</li>
+          <li> Completed production code review and wrote Agile User Stories for continued development and production of the user interfaces</li>
+          <li> Designed architecture for a partial migration of the Citi website's 1600 Angular modules from Apache to AWS S3</li>
+        </ul>
+      </div>
+
+      <div class="resume-item" [@slideInOutRight]>
+        <div> Banda Inc</div>
+        <div> May 2019 - Present </div>
+      </div>
+      <div class="resume-item" [@slideInOutRight]>
+        <div>Sofware Engineer</div>
+        <div>St. Louis, MO</div>
+      </div>
+      <div class="resume-list" [@slideInOutRight]>
+        <ul>
+          <li> Prototyped an Android App using Kotlin and Firebase to help artists and venues book and manage gigs </li>
+          <li> Used JQuery and CSS Grids to make https://banda-inc.com responsive across devices and create the front end chat feature </li>
+          <li> Used ExpressJS and JQuery to implement user authentication, promotions for artists through social media APIs, and a marketplace with Stripe Integration </li>
+          <li> Deployed banda-inc.com on Digital Ocean, configured SSL certificates and domain names, and maintains the server and updates </li>
+        </ul>
+      </div>
+
+      <div class="resume-item" [@slideInOutLeft]>
+        <div> CenturyLink</div>
+        <div> Summer 2018 </div>
+      </div>
+      <div class="resume-item" [@slideInOutLeft]>
+        <div>Product Development Intern</div>
+        <div>Monroe, LA</div>
+      </div>
+      <div class="resume-list" [@slideInOutLeft]>
+        <ul>
+          <li> Completely redesigned a user interface using ReactJS for the Work Self Service Software that can dynamically render different screens for over 100,000 users </li>
+          <li> Collaborated with various teams to integrate the dynamic user interface with a FOSS server and Java back-end to render around the contents of a MySQL database </li>
+          <li> Wrote extensive documentation and curriculum for ReactJS and taught senior software engineers to use ReactJS </li>
+        </ul>
+      </div>
+
+      <div class="resume-item" [@slideInOutRight]>
+        <div> Washington University in St. Louis</div>
+        <div> August 2018 – July 2019 </div>
+      </div>
+      <div class="resume-item" [@slideInOutRight]>
+        <div> Researcher </div>
+        <div> St. Louis, MO </div>
+      </div>
+      <div class="resume-list" [@slideInOutRight]>
+        <ul>
+          <li> Automated the scraping of over 1000 Think Tanks' financial history from the Foundation Center Database using python </li>
+          <li> Scraped and performed linguistic analysis on account data, twitter history, and activity of the Think Tanks </li>
+        </ul>
+      </div>
+
+      <div class="resume-item" [@slideInOutLeft]>
+        <div> Washington University in St. Louis</div>
+        <div> August 2017 – Present </div>
+      </div>
+      <div class="resume-item" [@slideInOutLeft]>
+        <div> Teaching Assistant </div>
+        <div> St. Louis, MO </div>
+      </div>
+      <div class="resume-list" [@slideInOutLeft]>
+        <ul>
+          <li> Guides students through labs and assignments in Object Oriented Design with C++, Data Structures and Algorithms, Java Programming, and Internet of Things </li>
+          <li> Holds weekly office hours, administers and evaluates assignments and exams, and privately tutors students one on one and in groups </li>
+        </ul>
+      </div>
+
+      <div class="resume-item" [@slideInOutRight]>
+        <div> iD Tech</div>
+        <div> Summer 2017 </div>
+      </div>
+      <div class="resume-item" [@slideInOutRight]>
+        <div> Instructor </div>
+        <div> St. Louis, MO </div>
+      </div>
+      <div class="resume-list" [@slideInOutRight]>
+        <ul>
+          <li>Developed cirriculum and taught various technical and STEM skills including 3D printing with AutoDesk Maya and Print Studio, level design in Minecraft, VEX Robotics, and Lego Mindstorms </li>
+          <li> Worked with campers ages seven to seventeen to debug code and fix problems in projects </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+</div>
+
