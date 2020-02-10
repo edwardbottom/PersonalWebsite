@@ -1,0 +1,20 @@
+<app-header></app-header>
+<div class="mark-page">
+    <div class="article-card">
+        <div class="mark-header">
+            <h4>{{title}}</h4>
+            <h4>{{description}}</h4>
+        </div>
+        <div class="mark-content">
+            <div *ngFor="let m of markArray">
+                <p >
+                    {{ m }}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

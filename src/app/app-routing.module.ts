@@ -1,9 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import { MarkdownViewComponent } from './markdown-view/markdown-view.component';
 
-const routes: Routes = [{path:  'home', component: HomeComponent}];
+const routes: Routes = [
+  {path:  'home', component: HomeComponent},
+  {path: 'content/:path', component:MarkdownViewComponent} 
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

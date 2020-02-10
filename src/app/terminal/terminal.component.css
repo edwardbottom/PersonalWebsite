@@ -18,7 +18,9 @@
       margin-right: 0px;
     }
   } */
-
+  a{
+    color: #ccc;
+  }
   .terminal-card{
     border-top: 15px solid #ccc;
     background-color: #383737;
